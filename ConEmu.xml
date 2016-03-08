@@ -361,7 +361,7 @@
 			<value name="ComSpec.UncPaths" type="hex" data="00"/>
 			<value name="ComSpec.Path" type="string" data=""/>
 			<value name="EnvironmentSet" type="multi">
-				<line data="set HOME=D:\Documents"/>
+				<line data="set HOME=C:\Users\public.dude\"/>
 			</value>
 			<value name="CTS.Intelligent" type="hex" data="01"/>
 			<value name="CTS.IntelligentExceptions" type="string" data="far|vim.exe"/>
@@ -652,8 +652,8 @@
 					<value name="Name" type="string" data="{Git}"/>
 					<value name="Flags" type="dword" data="00000003"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="GuiArgs" type="string" data="/dir &quot;D:\Documents\Code&quot;"/>
-					<value name="Cmd1" type="string" data="&quot;&quot;D:\Program Files\Git\bin\sh.exe&quot; --login -i&quot;"/>
+					<value name="GuiArgs" type="string" data="/dir &quot;C:\Users\public.dude\Code&quot;"/>
+					<value name="Cmd1" type="string" data="&quot;&quot;C:\Program Files\Git\bin\sh.exe&quot; --login -i&quot;"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
