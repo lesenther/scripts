@@ -5,7 +5,7 @@ If !ProcessExist("greenshot.exe")
 
 If ProcessExist("greenshot.exe"){
 	Send, {Ctrl down}{Printscreen}{Ctrl up}
-	Sleep, 1
+	Sleep, 200
 	Send, {Down}
 	Send, {Down}
 	Send, {Down}
