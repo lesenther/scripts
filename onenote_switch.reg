@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\onenote-cmd] @="URL:onenote-cmd" "URL Protocol"=""
+[HKEY_CLASSES_ROOT\onenote-cmd\Shell]
+[HKEY_CLASSES_ROOT\onenote-cmd\Shell\Open]
+[HKEY_CLASSES_ROOT\onenote-cmd\Shell\Open\Command] @="C:\Program Files\Microsoft Office\root\Office16\ONENOTE.EXE"
