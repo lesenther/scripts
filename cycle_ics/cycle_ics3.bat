@@ -1,2 +1,0 @@
-Ping www.google.com -n 1 -w 1000
-if errorlevel 1 (powershell -ExecutionPolicy ByPass -Command "$m = New-Object -ComObject HNetCfg.HNetShare; $c = $m.EnumEveryConnection |? { $m.NetConnectionProps.Invoke($_).Name -eq 'Wi-Fi' }; $config = $m.INetSharingConfigurationForINetConnection.Invoke($c); $config.DisableSharing(); Start-Sleep -s 5; $config.EnableSharing(0);")

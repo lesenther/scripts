@@ -1,1 +1,0 @@
-powershell -ExecutionPolicy ByPass -File cycle_ics.ps1
