@@ -14,6 +14,7 @@ In order to use the script, you will need to set up a reoccuring task in Windows
 `/MO 1 `
 `/ST 00:00 `
 `/RI 1 /DU 23:59 `
+`/RU <username> /RP <password> `
 `/RL HIGHEST`
 
 The batch file will ping google.com and exit if successful, otherwise it will attempt to fix things by first disabling, pausing and enabling the network adapter, and then cycling the Internet Connection Sharing (ICS) state for that adapter.
